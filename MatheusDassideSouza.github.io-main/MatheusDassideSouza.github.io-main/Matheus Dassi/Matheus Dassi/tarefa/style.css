@@ -1,0 +1,36 @@
+/*A formatação do Css é bem diferente do html, parece um pouco mais simples*/
+/*A estrutura é de: selector{
+    atribute:value
+}*/
+
+body{
+    background-color: black;
+    color: white;
+}
+
+div{
+    color: white; /*Cor do Texto*/
+    background-color: rgb(0, 0, 0); /*Cor do Fundo*/
+    width: 150px; /*Comprimento*/
+    margin-top: 20px 0; /*Tamanho da Margem*/
+    padding: 10px 0; /*Preenchimento interior*/
+    text-align: center; /*Alinhamento de Texto*/
+    font-size: 30px; /*Tamanho da Fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*Estilo da Fonte*/
+    border: 4px solid rgb(255, 255, 255); /*Borda do Texto*/
+    border-radius: 10px;
+    display: inline-block; 
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border: 8px dashed white;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/*Em atributos como margin e padding, se quisermos personalizar seu tamanho devemos levar em contam,
+ que ele recebe os valores no sentido horário: Cima, Direita, Baixo e esquerda*/
+ 
+ /*Valores para Border: Tamanho, Tipo de Borda e cor da Borda*/

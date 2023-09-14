@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.NavBar{
+    background-color: black;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    color: white;
+}
+
+.NavBar div a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.NavBar div a:hover{
+    text-decoration: underline;
+}
+
+.NavBar div input{
+    margin-left: 5px;
+}
+
+.slider{
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+.slide img{
+    width: 800px;
+    height: 100%;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid rgb(208, 69, 92);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: white;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: white;
+}
+
+.banner{
+    display: flex;
+    height: 800px;
+}
+
+.banner a{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-1{
+    background-color: rgb(39, 39, 219);
+    text-decoration: none;
+    color: black;
+}
+
+#banner-2{
+    background-color: rgb(214, 201, 13);
+}
+
+#banner-3{
+    background-color: rgb(214, 17, 17);
+}
+
+#banner-4{
+    background-color: rgb(45, 161, 45);
+}
+
+.frete{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.cards{
+    background-color: blue;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards a{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+

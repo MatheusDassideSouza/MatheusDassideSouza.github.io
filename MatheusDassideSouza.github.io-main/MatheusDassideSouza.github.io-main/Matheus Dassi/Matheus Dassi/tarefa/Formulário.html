@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Formulário</h1>
+
+    <form>
+        Nome:<input type="text" name="nome" required><br>
+        Senha:<input type="password" name="senha"><br>
+        Email:<input type="email" name="email"><br>
+        Número:<input type="number" name="numero"><br>
+        Valor:<input type="range" name="valor"><br><br>
+        Gênero:
+        <input type="radio" name="gênero">Masculino
+        <input type="radio" name="gênero">Feminino<br>
+        Time:
+        <input type="radio" name="time">Grêmio 
+        <input type="radio" name="time">Internacional
+        <input type="radio" name="time">Outro<br><br>
+        Minhas matérias:<br>
+        <input type="checkbox" name="matematica">Matemática<br> 
+        <input type="checkbox" name="historia">História<br> 
+        <input type="checkbox" name="geografia">Geografia<br> 
+        <input type="checkbox" name="quimica">Química<br> 
+        <input type="checkbox" name="biologia">Biologia<br> 
+        <input type="checkbox" name="fisica">Física<br><br>
+        Cor:<input type="color" name="cor"><br><br>
+        Data e hora:<br>
+        <input type="date" name="data"><br>
+        <input type="datetime-local" name="datahora"><br><br>
+        Arquivo:<input type="file" nome="arquivo"><br><br>
+        Selecionar comida:<br>
+        <select>
+            <option name="churrasco">Churrasco</option>
+            <option name="pizza">Pizza</option>
+            <option name="sushi">Sushi</option>
+        </select><br><br>
+        Descrição:<textarea name="descricao"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <a href="teste.html">Voltar</a>
+</body>
+</html>
+
+
+<!--
+
+    Value       (colocar um valor padrão no campo)
+    readonly    (apenas ler o campo)
+    disabled    (o campo fica desativado)
+    maxlength   (delimita campos do texto)
+    min/max     (delimita campo númerico)
+    placeholder (insere descrição no campo)
+    required    (torna o campo obrigatório preencher)
+    checked     (deixa o campo marcado por padrão)
+-->
