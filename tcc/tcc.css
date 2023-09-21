@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    text-align: center;
 }
 
 h1{
@@ -138,17 +139,73 @@ h1{
 }
 
 #banner-1{
-    background-color: blue;
+    background-color: rgb(39, 39, 219);
+    text-decoration: none;
+    color: black;
 }
 
 #banner-2{
-    background-color: yellow;
+    background-color: rgb(214, 201, 13);
 }
 
 #banner-3{
-    background-color: red;
+    background-color: rgb(214, 17, 17);
 }
 
 #banner-4{
-    background-color: green;
+    background-color: rgb(45, 161, 45);
 }
+
+.frete{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.card{
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.card img{
+    height: 250px;
+}
+
+.card label{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.promo{
+    background-color: red;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -1px;
+    padding: 3px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+
