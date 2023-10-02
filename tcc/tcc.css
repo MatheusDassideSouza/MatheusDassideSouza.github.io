@@ -149,16 +149,22 @@ h1{
 
 #banner-2{
     background-color: rgb(214, 201, 13);
+    text-decoration: none;
+    color: black;
     flex-grow: 1;
 }
 
 #banner-3{
     background-color: rgb(214, 17, 17);
+    text-decoration: none;
+    color: black;
     flex-grow: 1;
 }
 
 #banner-4{
     background-color: rgb(45, 161, 45);
+    text-decoration: none;
+    color: black;
     flex-grow: 1;
 }
 
@@ -169,19 +175,19 @@ h1{
 }
 
 #banner-2:hover{
-    background-image: url("img/atari.jpg");
+    background-image: url("img/games.png");
     flex-grow: 3;
     background-color: white;
 }
 
 #banner-3:hover{
-    background-image: url("img/d20.jpg");
+    background-image: url("img/spideman.png");
     flex-grow: 3;
     background-color: white;
 }
 
 #banner-4:hover{
-    background-image: url("img/d20.jpg");
+    background-image: url("img/king.png");
     flex-grow: 3;
     background-color: white;
 }
