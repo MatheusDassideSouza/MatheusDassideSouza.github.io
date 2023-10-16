@@ -1,6 +1,10 @@
 body{
     margin: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
 }
 
 h1{
@@ -15,6 +19,7 @@ h1{
     justify-content: space-around;
     gap: 10px;
     color: white;
+    width:100%;
 }
 
 .NavBar div a{
@@ -129,6 +134,7 @@ h1{
 .banner{
     display: flex;
     height: 500px;
+    width: 100%;
 }
 
 .banner a{
@@ -138,57 +144,58 @@ h1{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    flex-grow: 1;
+}
+
+.banner a:hover{
+    flex-grow: 3;
+    transition: 0.5s;
 }
 
 #banner-1{
     background-color: rgb(39, 39, 219);
     text-decoration: none;
     color: black;
-    flex-grow: 1;
 }
 
 #banner-2{
     background-color: rgb(214, 201, 13);
     text-decoration: none;
     color: black;
-    flex-grow: 1;
 }
 
 #banner-3{
     background-color: rgb(214, 17, 17);
     text-decoration: none;
     color: black;
-    flex-grow: 1;
 }
 
 #banner-4{
     background-color: rgb(45, 161, 45);
     text-decoration: none;
     color: black;
-    flex-grow: 1;
 }
 
 #banner-1:hover{
     background-image: url("img/d20.jpg");
-    flex-grow: 3;
     background-color: white;
+    background-size: 50%;
 }
 
 #banner-2:hover{
     background-image: url("img/games.png");
-    flex-grow: 3;
     background-color: white;
+    background-size: 50%;
 }
 
 #banner-3:hover{
     background-image: url("img/spideman.png");
-    flex-grow: 3;
     background-color: white;
+    background-size: 50%;
 }
 
 #banner-4:hover{
     background-image: url("img/king.png");
-    flex-grow: 3;
     background-color: white;
 }
 
@@ -199,6 +206,7 @@ h1{
     background-color: black;
     margin-top: 10px;
     padding: 15px;
+    width: 100%;
 }
 
 .cards{
