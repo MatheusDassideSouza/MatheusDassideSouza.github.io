@@ -228,8 +228,16 @@ h1{
     background-color: black;
 }
 
-.card img{
+.imagem{
     height: 250px;
+    background-size: cover;
+    background-position: top;
+}
+
+#livro-do-mestre{background-image: url('img/livro-do-mestre-d-d.png');}
+
+.imagem:hover{
+    background-size: 150%;
 }
 
 .card label{
@@ -251,8 +259,36 @@ h1{
     color: white;
     font-size: 12px;
 }
-.texto{
+
+.perfil{
     display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 5px;
+
+}
+
+.texto{
     margin-top: 10px;
     margin-left: -10px;
+    width: 300px;
+    text-align: left;
+}
+
+.fotop{
+    width: 200px;
+}
+
+
+@media(max-width:600px){
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .slider{
+        width: 400px;
+    }
+
 }
