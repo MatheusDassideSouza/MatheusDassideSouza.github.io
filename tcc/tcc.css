@@ -152,6 +152,10 @@ h1{
     transition: 0.5s;
 }
 
+.banner a:hover label{
+    display: none;
+}
+
 #banner-1{
     background-color: rgb(39, 39, 219);
     text-decoration: none;
@@ -228,18 +232,6 @@ h1{
     background-color: black;
 }
 
-.imagem{
-    height: 250px;
-    background-size: cover;
-    background-position: top;
-}
-
-#livro-do-mestre{background-image: url('img/livro-do-mestre-d-d.png');}
-
-.imagem:hover{
-    background-size: 150%;
-}
-
 .card label{
     height: 50px;
     display: flex;
@@ -259,6 +251,55 @@ h1{
     color: white;
     font-size: 12px;
 }
+
+.imagem:hover{
+    background-size: 150%;
+}
+
+.imagem{
+    height: 250px;
+    background-size: cover;
+    background-position: top;
+}
+
+/*Imagens da Sessão Rpg*/
+#livro-do-mestre{background-image: url('img/livro-do-mestre-d-d.png');}
+
+#call-of-cthulhu{background-image: url(img/Call-of-Cthulhu-Seventh-Edition.jpg);}
+
+#the-witcher{background-image: url(img/0-The-Witcher-Cover-768x1041.jpg);}
+
+#kit-essencial{background-image: url(img/kit\ essencial.jpg);}
+
+#d-vermelho{background-image: url(img/dados\ vermelhos.jpg);}
+
+#escudo{background-image: url(img/escudo.jpg);}
+
+/*Imagens da Sessão Games*/
+#fc24{background-image: url(img/fifa.jpg);}
+
+#baldurs-gate-3{background-image: url(img/baldurs-gate-3.jpg);}
+
+#call-of-duty{background-image: url(img/cod.jpg);}
+
+#uncharted{background-image: url(img/uncharted.jpg);}
+
+#borderlands{background-image: url(img/borderlands.jpg);}
+
+#dmc{background-image: url(img/devil\ may\ cry.jpg);}
+
+/*Imagens da Sessão hqs/mangás*/
+#berserk{background-image: url(img/berserk.webp);}
+
+#one-piece{background-image: url(img/one\ piece.webp);}
+
+#vinland-saga{background-image: url(img/vinland\ saga.webp);}
+
+#batman{background-image: url(img/piada\ mortal.jpg);}
+
+#x-men{background-image: url(img/xmen.jpg);}
+
+#sandman{background-image: url(img/sandman.jpeg);}
 
 .perfil{
     display: flex;
