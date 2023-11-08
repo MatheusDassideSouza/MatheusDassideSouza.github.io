@@ -174,14 +174,8 @@ h1{
     color: black;
 }
 
-#banner-4{
-    background-color: rgb(45, 161, 45);
-    text-decoration: none;
-    color: black;
-}
-
 #banner-1:hover{
-    background-image: url("img/d20.jpg");
+    background-image: url("img/Rpg.png");
     background-color: white;
     background-size: 50%;
 }
@@ -193,14 +187,9 @@ h1{
 }
 
 #banner-3:hover{
-    background-image: url("img/spideman.png");
+    background-image: url("img/Hq.png");
     background-color: white;
     background-size: 50%;
-}
-
-#banner-4:hover{
-    background-image: url("img/king.png");
-    background-color: white;
 }
 
 .frete{
