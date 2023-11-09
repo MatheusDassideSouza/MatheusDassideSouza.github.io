@@ -9,6 +9,7 @@ body{
 
 h1{
     font-family: 'Press Start 2P', cursive;
+    text-decoration: underline;
 }
 
 .NavBar{
@@ -290,13 +291,17 @@ h1{
 
 #sandman{background-image: url(img/sandman.jpeg);}
 
-.perfil{
+.corpo{
     display: flex;
     gap: 20px;
     align-items: center;
-    border: 10px solid black;
-    border-radius: 5px;
+}
 
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
 }
 
 .texto{
