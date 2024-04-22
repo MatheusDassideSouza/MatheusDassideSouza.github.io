@@ -37,5 +37,3 @@ document.write('Lista completa: '+frutas);
 document.write('<br>Posição específica: '+frutas[0]);
 document.write('<br>Fruta específica: '+frutas.indexOf(' Banana'));
 document.write('<br>Tamanho da lista: '+frutas.length);
-
-alert(Math.floor(Math.random() * 6 + 1));
